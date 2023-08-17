@@ -1,0 +1,46 @@
+  To create directories
+  mkdir dir1
+
+  To create multiple directories one within another
+  mkdir -p d1/d2/d3/d4
+
+  To remove an empty directory
+  rmdir dir_name
+
+  To remove a directory which has files and sub directories
+  rm -r dir_name
+
+  To move from one dir to another
+  cd dirname
+  Note   . represents current directory
+        .. represents parent directory
+        ~ represents home direcotry of current user
+        Eg: cd ~   will take control to home dir of current user
+
+  To create files
+  touch file1
+
+  To create multiple files
+  touch file1 file2 file3
+  Note: touch creates emptyr files.It can also be used for
+  updating the time stamp of files
+
+ To create files that can store some data
+  cat > filename
+  Enter some data in the file
+  To come out of cat command (ctrl+d) This represents EOF
+
+  a) cat create a new file if the file is already not present
+  b) it will overwrite the content of the exisiting file if
+    file is already present
+ 
+ To see the content of a file
+  cat filename
+
+ To append data to an exisiting file
+   cat >> filename
+   enter some data
+   ctrl+d
+
+To remove a file
+   rm filename
